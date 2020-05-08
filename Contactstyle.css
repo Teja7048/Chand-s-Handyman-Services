@@ -1,0 +1,373 @@
+
+html{
+    background-image: radial-gradient( rgb(44, 135, 177),#3882c7);
+    height:100%;
+}
+
+body {
+    background-image: url(IMAGES/IMG_2346.JPG);
+    font-family: 'Fira Sans', sans-serif;
+
+    background-position: inherit;								 
+    font-family: 'Work Sans', sans-serif;
+    color:black; 
+    font-size: 1.125rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+
+  a {
+
+   
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
+.container 
+{
+    width: 1024px;
+    min-height  : 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+
+    
+    
+    display: flex;
+								   
+    align-items: center;
+    justify-content: space-between;
+	display: flex;					
+    padding-top:  20px; 
+    padding-bottom: 20px;
+	border-bottom: 1 px solid lightgrey;
+									   
+}
+
+main{
+
+
+	
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2{
+	min-height: 300px;
+	padding-top: 50px;
+					  
+}
+ 
+
+
+.cards 
+{
+	
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    												  
+}
+
+.card1
+{
+
+		
+    background-image: url(IMAGES/card1\ background.jpg);
+    background-color: tomato;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 300px;
+    width:  30%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(59, 70, 221);
+    
+}
+
+.card2
+{
+    background-image: url(IMAGES/card2\ background.jpg);
+    background-color: tomato;
+    background-size: cover;
+    background-position:bottom  ;
+    min-height: 300px;
+    width:  30%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(79, 90, 247);
+    
+}
+
+.card3
+{
+   background-image: url(IMAGES/image2.jpg);
+   background-color: tomato;
+    background-size: cover;
+    background-position:top;
+    min-height: 300px;
+    width:30%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(72, 83, 238);
+}
+
+.herobox1
+{
+  
+    
+    flex: 2 ;
+    padding-right: 200px;
+}
+
+.herobox2
+{
+		   
+    flex: 1 ;
+    
+    
+    
+}
+
+h1{
+    font-size: 3.25rem;
+    color: rgb(61, 58, 61) ;
+    margin-bottom:70px;
+												 						  
+}
+
+p
+{  
+
+    color: #000;
+    line-height: 1.00rem;
+    margin-bottom: 0.10rem;
+    color:rgb(231, 236, 227);
+	
+	}
+
+   
+						 
+						  
+ 
+
+
+h2{
+    font-size: 3rem;
+    line-height: 1.2rem;
+    color: rgb(223, 107, 12)  ;
+    margin-top: 10px; 
+    
+										   
+					   
+					   
+												 
+}
+h3{
+    font-size: 3rem;
+    line-height: 1.2rem;
+    color: rgb(223, 107, 12)  ;
+    margin-top: 10px; 
+    
+    
+    
+
+				 
+										
+							
+}
+h4{
+    font-size: 3rem;
+    line-height: 1.2rem;
+    color: rgb(223, 107, 12)  ;
+    margin-top: 10px;
+     
+    
+
+							
+					  
+}
+h5{
+    font-size:  60px;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    color: rgb(4, 73, 33) ;
+    margin-bottom: 1rem;
+    padding-bottom: 30px;
+												 						  
+}
+
+.cards i{
+    font-size: 100px;
+    color: tomato;
+     
+ 					   
+}
+
+.card1 , .card2 , .card3 {
+				   
+    padding: 5px; 
+				 			   
+					   
+					   
+												 
+}
+
+a.mybutton
+
+{
+  background-color: tomato;
+  font-size: 3rem;
+  line-height: 1.2rem;
+  margin-top: 10 px;
+  padding : 10px 15px ;
+  font-family: Arial, Helvetica, sans-serif;
+   display: inline-block;
+   border-radius: 0px 20px 20px 0px;
+   box-shadow: 5px 5px 5px black;
+   }
+   
+.mybutton:hover {
+    background-color: rgb(6, 7, 7);
+    transition-duration: 1s;
+}
+
+ a.mybutton {
+    display: inline-block;
+    margin-top: 1
+    0px;
+					   
+}
+nav a.mybutton {
+    margin-left: 30px;
+}
+
+.navbutton {
+    border: 1px solid rgb(85, 6, 6);
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+    box-shadow: black;
+}
+
+.testimonials {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    box-shadow: rgb(187, 8, 8);
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid black;
+    color: rgb(10, 10, 10);
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/* .tbox :last-child {
+    font-size: .8rem;
+} */
+
+
+.tbox p {
+    font-size: 1.06rem;
+    padding-left: 30px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.dropdown {
+    display: none;
+    position: absolute;    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: rgb(190, 125, 28);
+}
+
+.dropdown .navbutton a {
+    color: rgb(12, 11, 11);
+}
+
+		  
+
+.inputwrapper {
+						   
+				  
+					  
+    margin-bottom: 30px;
+}
+											
+						 
+									
+								 
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px; 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+					   
+										   
+						  
+					   
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.728);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+footer p {
+    
+    font-size: 30px;
+    text-align: left;
+    color: rgb(119, 117, 117);
+    padding: 25px 35px 25px 35px;
+}
+
+iframe{
+
+    direction: rtl;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+	  
+					 
