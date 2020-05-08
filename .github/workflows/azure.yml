@@ -43,9 +43,7 @@ jobs:
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-      - name: ReportGenerator
-  uses: danielpalme/ReportGenerator-GitHub-Action@4.5.7
+
   with:
     # The coverage reports that should be parsed (separated by semicolon). Globbing is supported.
     reports: # default is coverage.xml
