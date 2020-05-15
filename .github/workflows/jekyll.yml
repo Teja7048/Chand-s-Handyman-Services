@@ -18,3 +18,82 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        
+        
+- name: Cache
+  uses: actions/cache@v1.2.0
+  with:
+    # A directory to store and save the cache
+    path: 
+    # An explicit key for restoring and saving the cache
+    key: 
+    # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
+    restore-keys: # optional        
+        
+   - name: Upload a Build Artifact
+  uses: actions/upload-artifact@v2
+  with:
+    # Artifact name
+    name: # optional
+    # A file, directory or wildcard pattern that describes what to upload
+    path:      
+        
+        
+   - name: Download a Build Artifact
+  uses: actions/download-artifact@v2
+  with:
+    # Artifact name
+    name: # optional
+    # Destination path
+    path: # optional     
+        
+        
+- name: Setup Ruby for use with actions
+  uses: actions/setup-ruby@v1.0.0
+  with:
+    # Version range or exact version of a Ruby version to use.
+    version: # optional, default is >= 2.4        
+        
+        
+ - name: First interaction
+  uses: actions/first-interaction@v1.0.0
+  with:
+    # Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}
+    repo-token: 
+    # Comment to post on an individuals first issue
+    issue-message: # optional
+    # Comment to post on an individuals first pull request
+    pr-message: # optional       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
