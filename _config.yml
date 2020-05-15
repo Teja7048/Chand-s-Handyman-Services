@@ -195,6 +195,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+- name: ClearlyNoticed Action
+  uses: dabutvin/chive-action@1.1.0
+
+
 
 # Sass/SCSS
 sass:
@@ -278,3 +282,15 @@ defaults:
       related: true
 
 theme: jekyll-theme-cayman
+
+- name: GitHub Action for Renovate
+  uses: Djiit/action-renovate@v1.0.0-alpha
+  - name: Publish gem
+  uses: dawidd6/action-publish-gem@v1.0.1
+
+  
+- name: Release Gem to GitHub Packages
+  uses: jstastny/publish-gem-to-github@v1.1
+- name: New gems
+  uses: aki77/new-gems-action@v1.0.0
+
