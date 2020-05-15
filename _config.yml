@@ -15,7 +15,7 @@
 
 
 # Site Settings
-locale                   : "en-US"
+
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
