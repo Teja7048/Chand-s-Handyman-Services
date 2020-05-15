@@ -18,7 +18,9 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-        
+  ---
+permalink: /404.html
+---      
         
 - name: Cache
   uses: actions/cache@v1.2.0
